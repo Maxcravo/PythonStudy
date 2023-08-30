@@ -26,3 +26,4 @@ resultResponse = response.json()
 #* Importante notar como acessamos o dicionário results dentro da nossa response, response["results"], ou seja dentro de response buscamos um objeto com o nome results
 for result in resultResponse["results"]: # Aqui acabamos de falar que para cada chave dentro do dicionário chamado results vamos fazer algo
   print(result["trackName"]) # Aqui pontuamos que queremos printar apenas a chave denominada trackName no nosso dicionário results
+  
